@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/headers.css">
+    <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="css/toolbars.css">
+    <title>Which side of the force are you?</title>
+</head>
+
+<body>
+
+    <section role="region">
+        <header>
+            <!-- Icon that will indicate whether you are online or offline - enabled if you are using offline/appcache (see above) -->
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-add">add</span></button>
+            </menu>
+            <h1>
+                <center>Force Side Checker</center>
+            </h1>
+        </header>
+    </section>
+
+
+    <div id="main">
+
+        <p id="instructions"><center>Depending where you are, it shows what side of the force you are.<br>
+            <strong>Be careful before you check, it may show your true personality</strong></center></p>
+
+        <center><button id="ambient-light">Check</button></center>
+        <div id="ambient-light-display"></div>        
+
+    </div>
+
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/offline.js"></script>
+</body>
+</html>
